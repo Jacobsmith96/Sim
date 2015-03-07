@@ -127,6 +127,5 @@ public class Circle{
 		double dx = (getMidX() - circ1.getMidX());
 		double dy = (getMidY() - circ1.getMidY());
 		return a * a > ((dx*dx) + (dy*dy));
-
 	}
 }

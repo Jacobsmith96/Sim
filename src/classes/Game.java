@@ -43,6 +43,7 @@ public class Game extends JFrame implements ActionListener, KeyListener
 		timer = new Timer(20, this); //Creates a new timer
 		addKeyListener(this);//Sets up the key listeners
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);//Program terminates on exit
+		
 	}
 	//Starts running the game by setting the running boolean to true and starting the timer
 	public void run(){
@@ -262,9 +263,6 @@ public class Game extends JFrame implements ActionListener, KeyListener
 		enemies = new ArrayList<Enemy>();
 		enemyCount = 0;
 		repaint();
-	}
-	public String nickBlackley(){
-		return "nick sux";
 	}
 }
 
